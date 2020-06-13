@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0195518-c090-4acd-aed7-daee0c23a8f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bgimage_drivers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon-globe.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -36,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Namal/chairsyde-dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -69,7 +68,10 @@
       <updated>1591897958887</updated>
       <workItem from="1591897964268" duration="12026000" />
       <workItem from="1592042919808" duration="32000" />
-      <workItem from="1592042961245" duration="2392000" />
+      <workItem from="1592042961245" duration="9782000" />
+      <workItem from="1592059819272" duration="1337000" />
+      <workItem from="1592061212296" duration="2763000" />
+      <workItem from="1592075565873" duration="788000" />
     </task>
     <servers />
   </component>
@@ -85,9 +87,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1592050179213" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1592050141573">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1592057252391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1592050141573" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.1080.1920.515@0.0.1920.1040" timestamp="1592057252391" />
   </component>
 </project>

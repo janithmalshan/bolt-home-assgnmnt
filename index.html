@@ -14,11 +14,14 @@
 <body>
 <nav class="navbar fixed-top">
     <a class="navbar-brand" href="#">
-        <img class="navbar-brand-logo" src="img/nav_logo_light.png">
+        <img class="navbar-brand-logo d-none d-sm-block" src="img/nav_logo_light.png">
+        <img class="navbar-brand-logo d-sm-none" src="img/nav_logo_dark.png">
     </a>
-    <div class="d-flex flex-row flex-sm-row-reverse align-items-center">
-        <button>test</button>
-        <p>Already have an account?</p>
+    <div class="d-flex flex-row flex-sm-row-reverse align-items-center navbar-action">
+        <button class="btn btn-light"><img src="./img/icon-globe.svg" height="22"><span
+                class="d-none d-sm-inline-block">English</span></button>
+        <button class="btn btn-secondary mr-4">SIGN IN</button>
+        <p class="mb-0 mr-3 d-none d-md-block">Already have an account?</p>
     </div>
 </nav>
 
@@ -29,7 +32,40 @@
                 <span>Earn good money with your car.</span>
             </h1>
         </div>
-        <div class="col-sm-6 container-sm ui-main__right flex-column justify-content-center align-items-center">33</div>
+        <div class="col-sm-6 container-sm ui-main__right flex-column justify-content-center align-items-center">
+            <form class="ui-form-signup">
+                <h1>Signup as a driver</h1>
+                <p>Sign up here if you a driver who would like to use Taxify platform.</p>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text pl-0">Will be using as your username</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPhone">Phone</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-light text-left" type="button" id="exampleInputPhone">+372
+                            </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="" maxlength="16"
+                               aria-label="Example text with button addon" aria-describedby="button-addon1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputCity">City</label>
+                    <input type="text" class="form-control" id="exampleInputCity">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label for="exampleCheck1" class="form-text">By signing up, you accept our <a>Terms of Service</a>
+                        and <a>Privacy Policy</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Proceed</button>
+                <a href="#" class="d-block text-center ui-link--secondary">Have multiple cars and drivers?</a>
+                <a href="#" class="d-block text-center ui-link--primary">Signup as a fleet owner</a>
+            </form>
+        </div>
     </div>
 </main>
 </body>

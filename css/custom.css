@@ -12,6 +12,37 @@ html, body, main {
     margin-left: 20px;
 }
 
+.navbar-action {
+    margin-top: 16px;
+}
+
+.navbar-action p {
+    font-size: 13px;
+    color: #808080;
+    font-weight: 600;
+}
+
+.navbar-action .btn {
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 80px;
+    height: 32px;
+    line-height: 18px;
+    padding: 0;
+}
+
+.navbar-action .btn.btn-secondary {
+    background-color: #3f4650;
+}
+
+.navbar-action .btn.btn-light {
+    background-color: transparent;
+}
+
+.navbar-action .btn.btn-light img {
+    margin-right: 10px;
+}
+
 .ui-main {
     height: 100%;
 }
@@ -60,7 +91,120 @@ html, body, main {
 
 .ui-main__right {
     display: flex;
-    background-color: #ffe8a1;
+    background-color: #FFFFFF;
+}
+
+.ui-form-signup {
+    max-width: 460px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ui-form-signup h1 {
+    font-size: 31px;
+    font-weight: 700;
+    color: #2d3235;
+}
+
+.ui-form-signup p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2d3235;
+    margin: 16px 0 20px;
+    line-height: 26px;
+    padding: 0 10px 0 0;
+}
+
+.ui-form-signup label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #2d3235;
+    margin: 2px 0 2px;
+}
+
+.ui-form-signup input.form-control {
+    font-family: 'Raleway', sans-serif;
+    height: 44px;
+}
+
+.ui-form-signup input.form-control:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: 0 0 1px 1px rgb(65, 223, 110);
+}
+
+.ui-form-signup .form-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 88%;
+    font-weight: 500;
+    padding: 0 0 0 8px;
+    color: #848484;
+}
+
+.ui-form-signup .form-text > a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ui-form-signup .form-text > a:hover {
+    text-decoration: underline;
+    color: #2d3235;
+}
+
+.ui-form-signup .form-check {
+    line-height: 25px;
+}
+
+.ui-form-signup .btn-outline-light {
+    border-color: #ced4da;
+    width: 130px;
+    color: #2d3235;
+}
+
+.ui-form-signup .btn-primary {
+    background-color: #41df6e;
+    border-color: #41df6e;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    height: 48px;
+    margin: 2px 0 20px;
+}
+
+.ui-form-signup .btn-primary:hover,
+.ui-form-signup .btn-primary:active,
+.ui-form-signup .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #35ca60;
+    border-color: #35ca60;
+}
+
+.ui-form-signup .btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(53, 202, 96, 0.32);
+}
+
+.ui-link--primary {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #41df6e;
+    padding: 1px;
+}
+
+.ui-link--primary:hover {
+    color: #41df6e;
+}
+
+.ui-link--secondary {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #2d3235;
+    padding: 1px;
+}
+
+.ui-link--secondary:hover {
+    color: #2d3235;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
